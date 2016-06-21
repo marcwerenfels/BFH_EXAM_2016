@@ -1,20 +1,24 @@
-import java.io.FileReader;
+package input_output.textprocessing;
+
 import java.io.IOException;
-import java.util.Scanner;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
 
 /**
  * @author lua1
  *
  */
-public class TextProcessor2 {
+public class NIOTextProcessor {
 	
 	public static void main(String[] args) throws IOException {
 
-		FileReader reader = new FileReader("worldarea.txt");
-		Scanner in = new Scanner(reader);
-	
-		while (in.hasNext()) {
-			String line = in.nextLine();
+		Path inputFile = Paths.get("worldarea.txt");
+
+		List<String> lines = Files.readAllLines(inputFile);
+		
+		for (String line : lines) {
 		    String[] items = line.split("\t");
 		    
 	    	String countryName = new String("");
@@ -30,7 +34,5 @@ public class TextProcessor2 {
 
 			System.out.println("Country: <" + countryName + "> Area: " + area);
 		}
-		reader.close();
-		in.close();
 	}
 }
