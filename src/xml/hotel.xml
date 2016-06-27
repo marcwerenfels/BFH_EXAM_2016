@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hotel stars="3" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsd:noNamespaceSchemaLocation="hotel_exercise.xsd">
+	<single-room> 12 </single-room>
+	<double-room> 26 </double-room>
+	<suite> 2 </suite>
+	<!-- optional element -->
+	<lounge/>
+</hotel>
