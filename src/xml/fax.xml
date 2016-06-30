@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fax xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+	xsi:noNamespaceSchemaLocation="./fax.xsd">
+  <header>
+    <from name="MyCompany" faxno="012 345 67 89"/>
+    <to name="YourCompany" faxno="098 765 43 21"/>
+    <priority type="URGENT"/>
+    <pages number="4" format="Letter" color="BW"/>
+  </header>
+  <body>
+Sehr geehrter Herr Bühler,
+Ich habe bei Ihnen gestern per Fax den Artikel 345 bestellt.
+Ich möchte diese Bestellung stornieren.
+
+Mit freundlichen Grüssen      Hans Muster
+  </body>
+  <checkinfo checksum="2af4" txtime="04:35pm" txdate="2/17/07"/>
+</fax>

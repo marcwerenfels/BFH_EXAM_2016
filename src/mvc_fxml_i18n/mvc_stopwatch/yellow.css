@@ -1,0 +1,29 @@
+#statusBar {
+-fx-font-weight: bold;
+-fx-font-size: 14;
+-fx-fill: #990000;
+-fx-text-fill: #ff8000;
+}
+
+.label {
+-fx-font-weight: bold;
+-fx-font-size: 14;
+-fx-fill: #990000;
+-fx-text-fill: #ff8000;
+}
+
+.button {
+-fx-background-color: linear-gradient(#ffd65b, #e68400);
+-fx-background-radius: 20;
+-fx-background-insets: 0,1,2,3,0;
+-fx-text-fill: #654b00;
+-fx-font-weight: bold;
+-fx-font-size: 14px;
+-fx-padding: 5 10 5 10;
+}
+.button:hover {
+-fx-background-color: linear-gradient(#ffe68b, #f6a430);
+}
+.button:pressed {
+-fx-background-color: linear-gradient(#ffd65b, #a68400);
+}
