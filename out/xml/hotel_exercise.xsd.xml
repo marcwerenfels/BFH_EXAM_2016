@@ -1,7 +1,0 @@
-<hotel stars="***">
-  <single-room>3</single-room>
-  <double-room>3</double-room>
-  <suite>3</suite>
-  <!--Optional:-->
-  <lounge>100</lounge>
-</hotel>
