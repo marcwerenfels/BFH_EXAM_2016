@@ -1,7 +1,5 @@
 package generic_programming.exercise1;
 
-import java.util.List;
-
 public class PairSeries<S, T> extends Series<Pair<S, T>> {
 
 

@@ -36,4 +36,9 @@ public class Pair<S, T> {
 		int i2 = pair2.getFirst();
 		String s2 = pair2.getSecond();
 	}
+
+    @Override
+    public String toString() {
+        return "[" + first + "," + second + "]";
+    }
 }
