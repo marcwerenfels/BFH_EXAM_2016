@@ -1,6 +1,4 @@
-package generic_programming;
-
-import java.util.List;
+package generic_programming.examples;
 
 public class PairOfBoxes<S, T> extends Pair<Box<S>, Box<T>> {
 

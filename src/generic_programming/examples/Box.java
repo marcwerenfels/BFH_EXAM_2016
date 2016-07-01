@@ -1,4 +1,4 @@
-package generic_programming;
+package generic_programming.examples;
 
 public class Box<T> {
 
