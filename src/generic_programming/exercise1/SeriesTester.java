@@ -5,7 +5,7 @@ public class SeriesTester {
 	public static void main(String[] args) {
 
 		Series<Integer> s1 = new Series<Integer>(0, x -> x + 1, x -> x <= 10);
-		Series<Integer> s2 = new Series<Integer>(0, x -> x + 2, 10);
+		Series<Integer> s2 = new Series<>(0, x -> x + 2, 10);
 		Series<Integer> s3 = new Series<Integer>(1, x -> x + x, x -> x <= 80);
 		Series<String> s4 = new Series<String>("", s -> s + "*", s -> s.length() <= 10);
 		Series<String> s5 = new Series<String>("HelloWorld", s -> s.substring(0, s.length() - 1), s -> !s.equals(""));
