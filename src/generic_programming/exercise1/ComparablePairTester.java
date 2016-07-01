@@ -17,7 +17,7 @@ public class ComparablePairTester {
 		System.out.println(ComparablePair.getMin(p1, p2));
 		System.out.println(ComparablePair.getMax(p1, p2));
 		
-		List<ComparablePair<?,?>> list = new ArrayList<>();
+		List<ComparablePair<?, ?>> list = new ArrayList<>();
 		list.add(p1);
 		list.add(p2);
 		list.add(p3);
