@@ -14,4 +14,5 @@ public class PairSeries<S, T> extends Series<Pair<S, T>> {
 				new PairPredicate<>(condition1, condition2));
 	}
 
+
 }
