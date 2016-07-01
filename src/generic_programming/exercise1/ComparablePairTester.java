@@ -17,14 +17,14 @@ public class ComparablePairTester {
 		System.out.println(ComparablePair.getMin(p1, p2));
 		System.out.println(ComparablePair.getMax(p1, p2));
 		
-		List<ComparablePair<?, ?>> list = new ArrayList<>();
+		List<ComparablePair<Integer,String>> list = new ArrayList<>();
 		list.add(p1);
 		list.add(p2);
 		list.add(p3);
 		list.add(p4);
 		list.add(p5);
 		list.add(p6);
-		//Collections.sort(list);
+		Collections.sort(list);
 		System.out.println(list);
 	}
 
