@@ -1,4 +1,4 @@
-package generic_programming.exercise3;
+package generic_programming.exercise3.streams;
 
 import java.util.Random;
 
