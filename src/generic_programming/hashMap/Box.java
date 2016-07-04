@@ -34,8 +34,13 @@ public class Box<T> {
 		Box<String> b2 = Box.getInstance("Hello");
 		Box<String> b3 = Box.getInstance("World");
 
+		Box<String> b4 = new Box<>("Test");
+		Box<String> b5 = new Box<>("Test");
+
 		System.out.println(b1 == b2); // returns true
 		System.out.println(b1 == b3); // returns false
 		System.out.println(b2 == b3); // returns false
+		System.out.println(b4 == b5); // returns false
+
 	}
 }
