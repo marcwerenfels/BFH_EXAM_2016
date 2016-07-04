@@ -1,4 +1,4 @@
-package topic07;
+package recursion;
 
 
 public class SentenceReverse {
